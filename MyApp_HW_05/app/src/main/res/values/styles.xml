@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalculatorButton.Material3" parent="Widget.Material3.Button">
+        <!-- Arka planı senin özel drawable yap -->
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <!-- Ripple'ı kapat -->
+        <item name="rippleColor">@android:color/transparent</item>
+        <!-- Yazı rengi ve boyutu -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+</resources>
+
