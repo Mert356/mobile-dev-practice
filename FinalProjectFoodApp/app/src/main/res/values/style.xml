@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Mevcut tema stilleriniz burada olabilir -->
+
+    <!-- Özel oval alt kenarlı toolbar stili -->
+    <style name="ToolbarOvalBottom" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomLeft">48dp</item>
+        <item name="cornerSizeBottomRight">48dp</item>
+    </style>
+
+</resources>
